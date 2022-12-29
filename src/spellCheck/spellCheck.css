@@ -1,0 +1,120 @@
+html,
+body {
+    height: 100%;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+.row {
+    flex: 1;
+}
+
+/* optional: get rid of body margin. makes look nice. */
+body {
+    margin: 0;
+}
+
+.paragraph-input {
+    height: 500px;
+    max-height: 500px;
+    width: 100%;
+    margin-left: 2%;
+}
+.label {
+    padding-bottom: 10%;
+    width: 100%;
+}
+
+
+
+/* CSS */
+.button-1 {
+  background-color: #EA4C89;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-1:hover,
+.button-1:focus {
+  background-color: #F082AC;
+}
+/* optional: shade the bottom row */
+/* .row:nth-child(2) {
+    background: #bbb
+  } */
+
+  #container-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center
+    
+    /* height: 100%; */
+}
+.row-2 {
+    flex: 1;
+}
+
+#container-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+    
+    /* height: 100%; */
+}
+
+
+/* CSS */
+.button-34 {
+  background: #5E5DF0;
+  border-radius: 999px;
+  box-shadow: #5E5DF0 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+  margin-bottom: 2%;
+  display: inline-block;
+}
+
+
+.uderline{
+    text-decoration: underline;
+    text-decoration-color: red;
+}
