@@ -34,6 +34,9 @@ const SpellCheck = () => {
                 setLoading(false);
 
             })
+            .catch(error => {
+                setLoading(false);
+            })
     }
     const replaceBetween = function (list, start, end, what) {
         console.log(list, start, end, what)
@@ -54,7 +57,6 @@ const SpellCheck = () => {
                             value={formik.values.spellCheck}
                             class="paragraph-input"
                         />
-                        {/* <button className="" type="submit">Submit</button> */}
                         <button class="button-1" role="button" type="submit">Check Spelling Mistakes</button>
                     </div>
 
@@ -85,8 +87,6 @@ const SpellCheck = () => {
                 </div>
             </form>
         </div>
-
-
     );
 };
 
